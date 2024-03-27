@@ -1,0 +1,44 @@
+.product-wrapper {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.img-wrapper{
+    margin: 0px;
+}
+
+.details {
+    padding-top: 20px;
+}
+
+.product-link {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.product-link:hover {
+    color: #ff6280;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.price {
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff6280;
+    line-height: 35px;
+}
+
+del {
+    color: grey;
+    font-weight: 400;
+}

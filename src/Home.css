@@ -1,0 +1,26 @@
+
+.hero-container {
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.hero-header {
+    font-size: 100px;
+    font-weight: 700;
+    color: #FFFF;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+.hero-p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFF;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.hero-btn {
+    margin-left: 35px;
+    margin-top: 50px;
+}

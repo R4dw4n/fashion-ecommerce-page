@@ -1,0 +1,47 @@
+.trend {
+    position: relative;
+}
+
+img {
+    object-fit: contain;
+}
+
+.trend-info {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    background-color: #FFFF;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.trend-btn {
+    margin: 20px;
+    border: none;
+    border-bottom: solid 3px;
+    border-bottom-color: #666666;
+    color: #323232;
+}
+
+.trend-btn:hover {
+    background-color: #FF6280;
+    color: #FFFF;
+    border-bottom-color: #FF6280;
+    transition: all 0.3s ease-in-out;
+}
+
+h2 {
+    color: #FF6280;
+    font-size: 32px;
+    margin: auto 20px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px auto;
+}

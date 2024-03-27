@@ -1,0 +1,33 @@
+.topper {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+.topper h1 {
+    display: block;
+    color: #FFFF;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.back-home {
+    opacity: 0.7;
+}
+
+.back-home:hover {
+    opacity: 1;
+    background-color: #FF6280;
+    transition: all 0.3s linear;
+}
+
+.container {
+    margin: 0px 80px 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+

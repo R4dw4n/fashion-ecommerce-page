@@ -1,0 +1,140 @@
+.topper {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+.topper h1 {
+    display: block;
+    color: #FFFF;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.back-home {
+    opacity: 0.7;
+}
+
+.back-home:hover {
+    opacity: 1;
+    background-color: #FF6280;
+    transition: all 0.3s linear;
+}
+
+.container {
+    padding: 100px 0px 60px 0px;
+    display: flex;
+    position: relative;
+}
+
+.img-wrapper {
+    margin-left: 200px;
+}
+
+.info-wrapper h3 {
+    color: #FF6280;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-info {
+    padding: 40px;
+    height: 100%;
+    width: 35%;
+    background-color: #f2f3f5;
+    align-self: center;
+}
+
+.about-info h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-wrapper h2 {
+    font-size: 28px;
+    color: #242424;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-wrapper p {
+    font-size: 16px;
+    color: #8d8d8e;
+    margin-bottom: 30px;
+}
+
+.feedback-container {
+    text-align: center;
+}
+
+.top-wrapper {
+    margin-bottom: 35px;
+}
+
+.top-wrapper h2 {
+    color: #242424;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.top-wrapper p {
+    font-size: 16px;
+    color: #8d8d8e;
+}
+
+.customer {
+    display: flex;
+}
+
+.customer-info {
+    width: 40%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 28px 50px 37px;
+    background-color: #f2f3f5;
+}
+
+.customer-info p {
+    font-size: 26px;
+    margin: 35px 0px 35px -10px;
+    text-align: initial;
+    line-height: 40px;
+}
+
+.customer-info i {
+    margin-right: 40px;
+    font-size: 40px;
+    color: #FF6280;
+}
+
+.customer-name {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    padding-left: 40px;
+    position: relative;
+}
+
+.customer-name::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #FF6280;
+    top: 9px;
+    left: 0px;
+}
+
+.check-us-out {
+    padding: 60px;
+}
+
+.check-out {
+    font-size: 40px;
+}

@@ -1,0 +1,7 @@
+.trends-container {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}

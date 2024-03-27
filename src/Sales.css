@@ -1,0 +1,86 @@
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.sales-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 25px;
+    padding-right: 25px;
+    margin: 60px 25px 90px 35px;
+}
+
+.trend-item {
+    max-width: 33.3333%;
+}
+
+.pic-content img {
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.pic-content {
+    position: relative;
+}
+
+.head-title {
+    margin-bottom: 35px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.sales-content {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.sale-description {
+    align-self: center;
+    padding: 0px 0px 0px 27px;
+    margin-top: 12px;
+}
+
+.label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.price {
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff6280;
+    line-height: 35px;
+}
+
+del {
+    color: grey;
+    font-weight: 400;
+}
+
+.lol {
+    color: rgb(74, 74, 74);
+}
+
+.product-name {
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+.product-name:hover {
+    color: #ff6280;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 910px){
+    .sales-container {
+        flex-direction: column;
+    }
+}

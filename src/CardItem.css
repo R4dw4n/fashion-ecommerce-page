@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 20px;
+    border-right: solid 1px;
+    border-color: #7e7e7e52;
+    width: fit-content;
+    height: fit-content;
+}
+
+.card-container h4 {
+    margin: 25px 0;
+    color: #242424;
+    font-size: 20px;
+}
+
+.card-container h4:hover {
+    color: #FF6280;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card-container .card-p {
+    color: #666666;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 40px;
+    color: #FF6280;
+}
